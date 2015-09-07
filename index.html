@@ -35,7 +35,7 @@
 
   var loginFcn = function() {
       if($('#username').val() === 'nwu1' && $('#password').val() === 'NewYork20179299'){
-        window.location="test.html"
+        window.location="portal.html"
       }
       else{
         $('#incorrectLogin').show();
@@ -45,6 +45,11 @@
     $('#login').click(loginFcn)
     $(function() {
       $('#incorrectLogin').hide();
+      $('#password').keydown(function(event) {
+        if (event.keyCode == 13) {
+          loginFcn();
+         }
+    });
     })
   </script>
   </body>
