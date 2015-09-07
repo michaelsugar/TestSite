@@ -266,24 +266,24 @@ body {
 /*______Portlets2 Codes Start_______*/
 
 .portlet2_header_inner {
-  background-image:url(portlet-header.jpg);
+  background-image:url(../img/header_bg.jpg);
   background-repeat:no-repeat;
   background-position:left 0;
   margin:0px 5px 0px 0px;
 }
 .portlet2_header {
-  background-image:url(portlet-header.jpg);
+  background-image:url(../img/header_bg.jpg);
   background-repeat:no-repeat;
   background-position:right 0;
   background-color:#faffe2;
 }
 .portlet2_header_bot-lcor {
-  background-image:url(portlet-footer-left-cor_ye.jpg);
+  background-image:url(../img/header_bg.jpg);
   background-repeat:no-repeat;
   background-position:bottom left;
 }
 .portlet2_header_bot-rcor {
-  background-image:url(portlet-footer-right-cor_ye.jpg);
+  background-image:url(../img/header_bg.jpg);
   background-repeat:no-repeat;
   background-position:bottom right;
 }
